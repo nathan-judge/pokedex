@@ -1,0 +1,141 @@
+
+.pokedex{
+    position: fixed;
+    margin-top:-190;
+    z-index: 10000;
+    margin-left: 510;
+  }
+  
+  .btn-block{
+      width: 65%;
+      padding: 25px;
+      background-color:midnightblue;
+      color:red;
+      font-size: 25px;
+      box-sizing: border-box;
+      font-family: Pokemon;
+      font-family: 'Press Start 2P', cursive;
+  }
+  body{
+      background-image:url(https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YXW3WBI3HVHUHCQUGSWFEDTPZE.jpg);
+      font-family: 'Press Start 2P', cursive;
+  }
+  ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  margin-top: 200;
+  
+  }
+  
+    #exampleModal {
+      display: none;
+      position: fixed;
+      padding: 2em;
+      color: red;
+      box-shadow: 0 0 20px 20px;
+     
+    }
+   
+    #exampleModal.modal.fade.show{
+   background-color: midnightblue;
+      display: flex;
+      align-items: center;
+      margin-left: 30%;
+      width: 500;
+      height: 530;
+    }
+ 
+  .btn-block:hover,.btn-block:focus {
+  
+      cursor: pointer;
+      opacity: 0.8;
+      color: aquamarine;
+    }
+  .btn-secondary{
+    height: 50px;
+    width: 200px;
+    background-color:red;
+    margin-left: 64%;
+    font-size: xx-large;
+    font-family: 'Press Start 2P', cursive;
+  }
+  .btn-secondary:hover,.btn-secondary:focus{
+    cursor: pointer;
+    opacity: 0.8;
+    color: aquamarine;
+  }
+  
+  #exampleModal {
+    z-index: 10000000;
+  
+  }
+  .modal{
+    flex: 1;
+  }
+  
+  #pokeimg {
+    height: 80%;
+  }
+  
+  .search {
+    position: fixed;
+    top: 165;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: midnightblue;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    z-index: 10000;
+   }
+   
+   .search:hover > .searchtxt {
+    width: 240px;
+    padding: 0 6px;
+   }
+   
+   .search:hover > .search-btn {
+    background: white;
+    color: black;
+   }
+   
+   .search-btn {
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:midnightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color:midnightblue;
+    cursor: pointer;
+   }
+   
+   .search-btn > i {
+    font-size: 30px;
+   }
+   
+   .searchtxt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    font-weight: bold;
+   }
+  
+
+  
+
+  
+  
