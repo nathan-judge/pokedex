@@ -3,7 +3,7 @@
     position: fixed;
     margin-top:-190;
     z-index: 10000;
-    margin-left: 510;
+    margin-left: 39%;
   }
   
   .btn-block{
@@ -135,7 +135,11 @@
    }
   
 
-  
+   @media(min-width:600px){
+    body {
+      margin-left: 28%;
+    }
+  }
 
   
   
